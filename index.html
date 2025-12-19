@@ -1,31 +1,62 @@
-<!doctype html>
-<html lang="de">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Testseite</title>
-  <style>
-    body { font-family: system-ui, Arial, sans-serif; margin: 40px; line-height: 1.5; }
-    .card { max-width: 720px; padding: 20px; border: 1px solid #ddd; border-radius: 16px; }
-    img { max-width: 100%; height: auto; border-radius: 12px; display: block; margin-top: 12px; }
-    code { background: #f5f5f5; padding: 2px 6px; border-radius: 6px; }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <h1>Hallo 👋</h1>
-    <p>Das ist eine kleine Testseite mit einem Bild.</p>
-
-    <!-- Option A: Lokales Bild (z.B. "bild.jpg" im gleichen Ordner) -->
-    <p><strong>Lokales Bild:</strong> Lege <code>bild.jpg</code> neben diese HTML-Datei.</p>
-    <img src="bild.jpg" alt="Mein Testbild (lokal)" />
-
-    <hr />
-
-    <!-- Option B: Bild per URL (ersetze die URL) -->
-    <p><strong>Bild per URL:</strong></p>
-    <img src="https://via.placeholder.com/900x500.png?text=Testbild" alt="Mein Testbild (URL)" />
-  </div>
-</body>
+<!DOCTYPE html>
+<html>
+	<head>
+	 	<title>Kettlecodes</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div id="logo">
+				<a href='#'>
+					<img src="img/logo.jpg">
+				</a>
+			</div>
+			<nav id="main-nav">
+				<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#apps">Apps</a></li>
+				<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section id="home">
+			<hr>
+			<h1>Kettlecodes</h1>
+		</section>
+		<section id="about">
+			<h3>About</h1>
+			<hr>
+			<img src="img/about.jpg">
+			<h4>.. us and the name</h4>
+			<p>
+Hello everyone, we are Tim and Andy, passionate app developers who dedicate our free time to creating innovative solutions. Our journey began with a simple love for technology and a shared enthusiasm for problem-solving. Often, we sit down together, enjoy a cup of tea, and enthusiastically exchange ideas and approaches. These brainstorming sessions, filled with creativity and camaraderie, led us to establish "Kettlecodes."</p>
+			<br>
+			<p>The name "Kettlecodes" symbolizes the blend of our favorite pastime—sipping tea from a kettle—while coding and developing new apps. It's during these relaxed yet productive moments that our best ideas come to life. Our collaborative spirit and mutual passion for development drive us to constantly push the boundaries of what's possible in the app world.</p>
+			<br>
+			<p>At Kettlecodes, we believe in the power of creativity and teamwork. Every line of code we write and every project we undertake is a testament to our dedication and the joy we find in bringing our ideas to fruition. Join us on our journey as we continue to innovate, create, and share our passion for app development with the world.</p>
+		</section>
+		<section id="apps">
+			<h3>Apps</h3>
+			<hr>
+			<div id="applist">
+				<ul>
+					<li><a href="https://apps.apple.com/de/app/bee-in-time/id6475166866"><img src="img/beeintime.jpg"></a></li>
+					<li><a href="https://apps.apple.com/de/app/minigolf-caddy/id6502611550"><img src="img/golfpilot.jpg"></a></li>
+					<li><a href="https://apps.apple.com/de/app/ausgegeben/id6504726472"><img src="img/ausgegeben.jpg"></a></li>
+				</ul>
+			</div>
+		</section>
+		<section id="contact">
+			<h3>Contact</h3>
+			<hr>
+			<p>info@kettlecodes.com</p>
+		</section>
+<footer>
+	<p>
+<a href="privacy">Privacy Policy</a>
+	</p>
+</footer>
+	</body>
 </html>
-
